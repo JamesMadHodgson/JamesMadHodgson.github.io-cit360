@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd17ef84-ed5e-4269-8429-fa7c14e554ef" name="Default Changelist" comment="Second push Collections">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JamesHodgson_javaCollections/javacollections/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JamesHodgson_javaCollections/javacollections/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javacollections/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollections/Main.java" afterDir="false" />
+    <list default="true" id="cd17ef84-ed5e-4269-8429-fa7c14e554ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579294500297</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Second push Collections">
+      <created>1579374335481</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579374335481</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -96,10 +101,10 @@
       <screen x="-329" y="-1057" width="1920" height="1057" />
     </state>
     <state x="433" y="-925" key="#com.intellij.ide.util.MemberChooser/-329.-1057.1920.1057/0.23.1440.827@-329.-1057.1920.1057" timestamp="1579283785292" />
-    <state x="488" y="-829" key="CommitChangelistDialog2" timestamp="1579374177462">
+    <state x="488" y="-829" key="CommitChangelistDialog2" timestamp="1579374335357">
       <screen x="-322" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="488" y="-829" key="CommitChangelistDialog2/-322.-1057.1920.1057/0.23.1440.829@0.23.1440.829" timestamp="1579374177462" />
+    <state x="488" y="-829" key="CommitChangelistDialog2/-322.-1057.1920.1057/0.23.1440.829@0.23.1440.829" timestamp="1579374335357" />
     <state x="350" y="-828" key="CommitChangelistDialog2/-329.-1057.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1579294500098" />
     <state x="138" y="-1026" key="CommitChangelistDialog2/-329.-1057.1920.1057/0.23.1440.829@0.23.1440.829" timestamp="1579292602328" />
     <state x="54" y="-955" key="DiffContextDialog" timestamp="1579292568040">
@@ -167,9 +172,10 @@
     </state>
     <state x="352" y="-646" key="Vcs.Push.Dialog.v2/-322.-1057.1920.1057/0.23.1440.829@0.23.1440.829" timestamp="1579374290275" />
     <state x="352" y="126" key="Vcs.Push.Dialog.v2/-329.-1057.1920.1057/0.23.1440.829@0.23.1440.829" timestamp="1579295357403" />
-    <state x="577" y="400" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579295109583">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="581" y="-315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579374619610">
+      <screen x="-322" y="-1057" width="1920" height="1057" />
     </state>
+    <state x="581" y="-315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-322.-1057.1920.1057/0.23.1440.829@0.23.1440.829" timestamp="1579374619610" />
     <state x="441" y="-355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-329.-1057.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1579294895111" />
     <state x="577" y="400" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-329.-1057.1920.1057/0.23.1440.829@0.23.1440.829" timestamp="1579295109583" />
     <state x="245" y="-1032" width="838" height="1032" key="search.everywhere.popup" timestamp="1579282405827">
