@@ -1,0 +1,47 @@
+
+#------------------------------------------------------------------------#
+# INSTALL THE DEFAULT CONFIG OF MYSQL (MacOS only)
+#------------------------------------------------------------------------#
+
+# secure that you have the rigth version of mysql isntalled
+
+brew install mysql
+
+brew services start mysql
+
+mysql_secure_installation
+
+# now you can log into mysql with:
+
+mysql -u root -p
+
+# this will prompt for the password (in my case my password is password)
+
+
+#------------------------------------------------------------------------#
+# CREATE A NEW DATABASE
+#------------------------------------------------------------------------#
+
+
+# Go to workbench, the current connection should be in the home page of
+# your workbench instance. 
+
+# Connect to your current cunnection from workbench and create a new schema
+
+# Create a new user with rights over your schema and connect to the database
+
+mysql -u ronaldba database1 -p
+
+select database();
+
+
+#------------------------------------------------------------------------#
+# CREATE A NEW JAVA PROJECT
+#------------------------------------------------------------------------#
+
+CREATE A MAVEN PROJECT.  # Setup the project ... who cares about the details
+
+JDBC mySql java connector - https://www.youtube.com/redirect?redir_token=niGl5-XnczubxzSIihV4iwjR84B8MTU4NDUxMjEzN0AxNTg0NDI1NzM3&q=https%3A%2F%2Fmvnrepository.com%2Fartifact%2Fmysql%2Fmysql-connector-java&v=KHohVibqePw&event=video_description
+
+Core Hibernate - https://www.youtube.com/redirect?redir_token=niGl5-XnczubxzSIihV4iwjR84B8MTU4NDUxMjEzN0AxNTg0NDI1NzM3&q=https%3A%2F%2Fmvnrepository.com%2Fartifact%2Forg.hibernate%2Fhibernate-core&v=KHohVibqePw&event=video_description
+

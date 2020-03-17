@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- <!DOCTYPE hibernate-configuration PUBLIC """> -->
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!-- driver for sql -->
+        <property name ="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/student</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">password</property>
+
+
+        <property name="connection.pool_size">1</property>
+
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+        <property name="current_session_content_class">thread</property>
+
+        <property name="cache.provider_class">org.hibernate.cache.internal.NoCachingRegionFactory</property>
+
+        <property name="show_sql">true</property>
+        <!-- full path to sql file -->
+        <mapping class="week10.Customer"/> <!--hibernate_test -->
+        <!-- muiltiple class one after the other below this point -->
+    </session-factory>
+</hibernate-configuration>
